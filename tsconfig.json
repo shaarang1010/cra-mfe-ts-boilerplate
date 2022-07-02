@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es2018",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react",
+      "rootDir": "./src",
+      "outDir": "./build",
+      "baseUrl": "./src/"
+    },
+    "include": ["src"]
+  }
+  
