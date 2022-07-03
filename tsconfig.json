@@ -1,23 +1,25 @@
 {
     "compilerOptions": {
-      "target": "es2018",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "allowJs": true,
       "allowSyntheticDefaultImports": true,
-      "skipLibCheck": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
       "moduleResolution": "node",
-      "module": "commonjs",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "noEmit": true,
-      "jsx": "react",
-      "rootDir": "./src",
-      "outDir": "./build",
-      "baseUrl": "./src/"
+      "esModuleInterop": true,
+      "noUnusedLocals": true,
+      "noImplicitAny": true,
+      "target": "ESNext",
+      "module": "ESNext",
+      "strict": true,
+      "jsx": "react"
     },
-    "include": ["src"]
+    "include": [
+      "src/**/*",
+      "node_modules/jest-dom"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
   }
-  
