@@ -2,15 +2,11 @@
 
 ### Get Started
 
-1. Install [pnpm](https://pnpm.io/) globally
+- Install [pnpm](https://pnpm.io/) globally  ` npm install -g pnpm`
 
-` npm install -g pnpm`
+- Clone the repo
 
-2. Clone the repo
-
-3. Install dependencies
-
-`pnpm install` or `pnpm i`
+- Install dependencies `pnpm install` or `pnpm i`
 
 ### Package dependencies
 
