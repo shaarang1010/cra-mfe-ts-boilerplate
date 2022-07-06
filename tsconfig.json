@@ -1,25 +1,13 @@
 {
-    "compilerOptions": {
-      "allowSyntheticDefaultImports": true,
-      "noFallthroughCasesInSwitch": true,
-      "noUnusedParameters": true,
-      "noImplicitReturns": true,
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-      "noUnusedLocals": true,
-      "noImplicitAny": true,
-      "target": "ESNext",
-      "module": "ESNext",
-      "strict": true,
-      "jsx": "react"
-    },
-    "include": [
-      "src/**/*",
-      "node_modules/jest-dom"
-    ],
-    "exclude": [
-      "node_modules",
-      "dist"
-    ],
-    "types": ["node", "jest", "@testing-library/jest-dom"],
-  }
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+  },
+  "ts-node": { "compilerOptions": { "module": "CommonJS" } }
+}
